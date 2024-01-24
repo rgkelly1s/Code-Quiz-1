@@ -57,14 +57,15 @@ const questions = [
         ] 
     }
 ];
-
+//adding event listners https://stackoverflow.com/questions/58172576/about-an-event-listener-inside-a-quiz-game
+//variables to hold answers
 const questionElment = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons"); 
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
-
+//functions for Quiz https://stackoverflow.com/questions/66308020/how-to-add-a-score-function-to-my-quiz-using-javascript
 function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
