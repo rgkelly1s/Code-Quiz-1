@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+/*The actual quiz*/
+/*example site https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp*/
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-weight: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+   font-size: 20px;
+   color: black; 
+   font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+    color: darkgrey;
+    font-weight: 700;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: black;
+    color: grey;
+}
+
+#next-btn {
+    background: burlywood;
+    color: black;
+    font-weight: 600;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    display: none;
+}
+
+.correct {
+    background: yellowgreen;
+}
+
+.incorrect {
+    background: orangered;
+}
